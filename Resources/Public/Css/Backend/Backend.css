@@ -1,0 +1,5 @@
+/* toolbar drop down */
+.toolbar-cache-flush-action>div>span {
+    width: 25px;
+    height: 25px;
+}

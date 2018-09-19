@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<xliff version="1.0">
+    <file source-language="en" datatype="plaintext" original="messages" product-name="cacheToCage">
+        <header/>
+        <body>
+            <trans-unit id="flushPageCachesTitle">
+                <source>Flush frontend Cages</source>
+            </trans-unit>
+            <trans-unit id="flushPageCachesDescription">
+                <source>Clear frontend and page-related Cages.</source>
+            </trans-unit>
+            <trans-unit id="flushAllCachesTitle2">
+                <source>Flush all Cages</source>
+            </trans-unit>
+            <trans-unit id="flushAllCachesDescription2">
+                <source>Clear all system-related Cages, including localization, extension configuration, file Cages and opcode Cages. Rebuilding this Cage may take some time.</source>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>
