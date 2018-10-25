@@ -3,6 +3,9 @@
     <file source-language="en" datatype="plaintext" original="messages" product-name="cacheToCage">
         <header/>
         <body>
+            <trans-unit id="rm.clearCache_clearCache">
+                <source>Clear Nicolas Cage</source>
+            </trans-unit>
             <trans-unit id="flushPageCachesTitle">
                 <source>Flush frontend Cages</source>
             </trans-unit>

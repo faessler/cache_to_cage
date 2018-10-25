@@ -9,6 +9,16 @@ $iconRegistry = \TYPO3\CMS\Core\Utility\GeneralUtility::makeInstance(
     \TYPO3\CMS\Core\Imaging\IconRegistry::class
 );
 $iconRegistry->registerIcon(
+    'whiteCage',
+    \TYPO3\CMS\Core\Imaging\IconProvider\BitmapIconProvider::class,
+    ['source' => 'EXT:cache_to_cage/Resources/Public/Icons/white.png']
+);
+$iconRegistry->registerIcon(
+    'grayCage',
+    \TYPO3\CMS\Core\Imaging\IconProvider\BitmapIconProvider::class,
+    ['source' => 'EXT:cache_to_cage/Resources/Public/Icons/gray.png']
+);
+$iconRegistry->registerIcon(
     'greenCage',
     \TYPO3\CMS\Core\Imaging\IconProvider\BitmapIconProvider::class,
     ['source' => 'EXT:cache_to_cage/Resources/Public/Icons/green.png']

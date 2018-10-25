@@ -1,3 +1,11 @@
+/* toolbar */
+.scaffold-toolbar a {
+    opacity: 0.7;
+}
+.scaffold-toolbar .open a, .scaffold-toolbar a:hover {
+    opacity: 1;
+}
+
 /* toolbar drop down */
 .toolbar-cache-flush-action>div>span {
     width: 25px;
